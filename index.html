@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SORTING VISUALISER</title>
+</head>
+<body>
+    <header>SORTING ALGORITHM VISUALISER</header>
+    <div class="info">Visualise and Learn how the SORTING ALGORITHMS work.</div>
+    
+    <div class="inputs">
+        <div class="box">
+            Speed
+            <input id="speed" type="range" >
+        </div>
+        <div class="box">
+            Length
+            <input id="size" type="range" oninput="createNewArray()" min="25" max="75">
+        </div>
+        
+    </div>
+
+    <div class="container">
+        
+
+
+    </div>
+    <div class="buttons">
+        <button onclick="bubble(arr)">Bubble Sort</button>
+        <button onclick="selectionSort(arr)">Selection Sort</button>
+        <button onclick="insertionSort(arr)">Insertion Sort</button>
+        <button onclick="createNewArray()">Randomise</button>
+    </div>
+    <footer>Made by RUPAM</footer>
+    
+    <script src="app.js"></script>
+    <script src="bubble_sort.js"></script>
+    <script src="selection_sort.js"></script>
+    <script src="insertion_sort.js"></script>
+
+</body>
+</html>
