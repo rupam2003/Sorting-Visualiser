@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: "Poppins";
+    text-align: center;
+    
     
     
 }
@@ -24,7 +26,7 @@ body{
     border-bottom: 2px solid #3f75de;
 }
 .innerDiv{
-   margin: 1.5px;
+   margin: 0.5px;
    background-color: #3f75de;
    border-radius: 2px;
    position: relative;
@@ -82,4 +84,17 @@ input{
 footer{
     padding-top: 20px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+
+    
+    .buttons button{
+        font-size: 0.7rem;
+        padding: 2px;
+        margin: 3px;
+       
+    }
+    
 }
